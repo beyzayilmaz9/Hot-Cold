@@ -25,25 +25,21 @@ To simulate the game, you can use the Wokwi simulator. Since the simulator doesn
 
 Use the joystick to select a pixel. This position will be transmitted to the other Arduino through serial communication.
 
-> **📷 Visit GIF: [Pixel Selection](assets/gifs/pixel_selection.gif)**
 
 ### Step 2: Enter Opponent's Selection via Serial Monitor
 
 The top-right corner is represented as (0, 0), and the bottom-left corner as (7, 7). First, send the row number followed by pressing enter, then send the column number and press enter again.
 
-> **📷 Visit GIF: [Enter Opponent's Selection](assets/gifs/enter_opponent.gif)**
 
 ### Step 3: Predict Your Opponent's Choice
 
 Based on the feedback ("hot" if closer, "cold" if farther), make your next prediction.
 
-> **📷 Visit GIF: [Prediction](assets/gifs/prediction.gif)**
 
 ### Step 4: Enter Opponent's Prediction
 
 If the opponent correctly guesses your selection, send 1; otherwise, send 0 using the serial monitor.
 
-> **📷 Visit GIF: [Enter Opponent's Prediction](assets/gifs/enter_opponents_prediction.gif)**
 
 ## License
 
